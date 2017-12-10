@@ -1,0 +1,36 @@
+{
+    "name": "readfile-line",
+    "version": "0.1.0",
+    "description": "Read a file line by line (stream)",
+    "homepage": "https://666.io",
+    "keywords": [
+        "read",
+        "file",
+        "line",
+        "stream"
+    ],
+    "author": {
+        "name": "Daeren",
+        "email": "x@db.gg"
+    },
+    "main": "./index",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Daeren/readfile-line.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=5.10.0"
+    },
+    "readme": "",
+    "readmeFilename": "readme.md",
+    "bugs": {
+        "url": "https://github.com/Daeren/readfile-line/issues"
+    },
+    "dependencies": {
+        "map-stream": "0.0.7",
+        "pump": "^2.0.0",
+        "split": "^1.0.1"
+    },
+    "devDependencies": {}
+}
